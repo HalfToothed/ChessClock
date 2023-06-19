@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">  
+        <h1>Chess Clock</h1>
+        <nav class="header">
+            <input type="number" class="time" id="time" placeholder="Set Time">
+            <button class="set" id="set">Set</button>
+        </nav>
+        <div class="content">
+            <div class="clock one" id="clockWhite">
+                <h2 id="white" class="num">00 : 00</h2>
+            </div>
+            <div class="clock two" id="clockBlack">
+                <h2 id="black">00 : 00</h2>
+            </div>
+        </div>
+        <footer class="foot">
+            <button class="pause" id="pause">Pause</button>
+            <button class="reset" id="reset">Reset</button>
+            
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
